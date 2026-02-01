@@ -1,5 +1,38 @@
-.header{
-    width: 100%;
-    color: #fff;
-    background-color: black;
-}
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color:var(--black);
+ }
+ 
+ .nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5rem;
+ }
+
+ .link{
+    font-weight: 600;
+    color: var(--grey);
+    font-size: 1rem;
+ }
+
+ .link:hover{
+    color: var(--white);
+    transition: all 0.3s;
+ }
+
+ .logo{
+    font-size: 1.2rem;
+ }
+ 
+ a{
+    color: var(--white)!important;
+    text-decoration: none !important;
+ }
+
