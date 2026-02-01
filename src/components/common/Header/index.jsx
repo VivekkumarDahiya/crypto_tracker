@@ -1,3 +1,5 @@
+
+import SwipeableTemporaryDrawer from "./drawer";
 import style from "./header.module.css";
 
 
@@ -22,6 +24,9 @@ const Header=()=>{
                 <p  className={style.link}>Dashboard</p>
              </a>
          </nav>
+         <div className={style.mobile_drawer}>
+        <SwipeableTemporaryDrawer/>
+         </div>
 
         </header>
     )
